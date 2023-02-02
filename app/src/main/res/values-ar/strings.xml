@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hi">مرحبا</string>
+    <string name="school">مدرسة</string>
+    <string name="simple_project">مشروع بسيط</string>
+    <string name="english">انجليزي</string>
+    <string name="arabic">عربي</string>
+    <string name="next_screen">الشاشة التالية</string>
+
+    <string name="settings">الإعدادات</string>
+    <string name="back">رجوع</string>
+
+
+
+</resources>

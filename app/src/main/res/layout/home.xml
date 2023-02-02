@@ -1,0 +1,62 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.mamon.multiplelanguagesupport.screens.Settings">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginEnd="50dp"
+            android:layout_marginStart="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/hi"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/school"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/simple_project"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:layout_marginBottom="20dp"
+                android:textSize="20sp" />
+
+
+            <Button
+                android:id="@+id/btnNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/settings" />
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</layout>
